@@ -9,8 +9,6 @@ import (
 	"strconv"
 	"time"
 
-	"io/ioutil"
-
 	"github.com/customerio/go-customerio/v3"
 	"github.com/go-errors/errors"
 	"gopkg.in/yaml.v3"
@@ -141,7 +139,7 @@ func GetPersonListFromCsv(csvPath string) []Person {
 }
 
 func readConf(filename string) (*Config, error) {
-	buf, err := ioutil.ReadFile(filename)
+	buf, err := os.ReadFile(filename)
 	if err != nil {
 		return nil, err
 	}
