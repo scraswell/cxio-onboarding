@@ -1,0 +1,19 @@
+{
+    "terminal.integrated.fontFamily": "mononoki Nerd Font Mono",
+    "terminal.integrated.fontSize": 14,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/node_modules/**": true
+    },
+    "editor.tabSize": 4,
+    "editor.fontFamily": "mononoki Nerd Font Mono",
+    "editor.fontSize": 13,
+    "editor.renderWhitespace": "all",
+    "editor.insertSpaces": true,
+    "workbench.colorTheme": "Monokai"
+}
